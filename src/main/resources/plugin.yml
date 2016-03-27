@@ -1,0 +1,12 @@
+name: CallHighlighter
+version: "1.0"
+author: onebone
+api: [1.0.0]
+main: me.onebone.callhighlighter.CallHighlighter
+
+permissions:
+  callhighlighter:
+    description: Includes all permissions of CallHighlighter
+    children:
+      callhighlighter.emphasize:
+        description: Emphasizes calling player
